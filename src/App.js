@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <h3>Hello from app</h3>
+        <Navbar />
       </React.Fragment>
     );
   }
