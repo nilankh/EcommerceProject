@@ -17,7 +17,7 @@ class ProductList extends Component {
             <div className="row">
               <ProductConsumer>
                 {(value) => {
-                  return <h1>{value}</h1>;
+                  return <h1>{value}</h1>; 
                 }}
               </ProductConsumer>
             </div>
